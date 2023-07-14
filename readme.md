@@ -3,9 +3,9 @@ Original author: Mikael Ejberg Pedersen
 
 His website: https://www.ejberg.dk/portfolio/saleae-dcc-decoder/
 
-There's a zip file there with the source code that I copied into this project.
+There's a zip file there with the source code that I copied into this project. I did fixup a few things so that linux and macos would build in the Actions.
 
-I have only built and tested the Windows x64 version with Visual Studio 2022. I have no idea if any other configs work.
+I have only built and tested the Windows x64 version with Visual Studio 2022. I have no idea if any other configs work, but they are built by the github actions and you can download the artifacts in the actions tab.
 
 Documentation for the Saleae Logic Analyzer SDK can be found here:
 https://github.com/saleae/SampleAnalyzer
