@@ -1,3 +1,14 @@
+# DCC Analyzer for Logic 2.x
+This is already renamed and updated with DCCAnalyzer source code. So just clone then follow the build directions below, don't rename.
+
+Original author: Mikael Ejberg Pedersen 
+
+His website: https://www.ejberg.dk/portfolio/saleae-dcc-decoder/
+
+There's a zip file there with the source code that I copied into this project.
+
+I have only built and tested the Windows x64 version with Visual Studio 2022. I have no idea if any other configs work.
+
 # Saleae Analyzer SDK Sample Analyzer
 
 - [Saleae Analyzer SDK Sample Analyzer](#saleae-analyzer-sdk-sample-analyzer)
