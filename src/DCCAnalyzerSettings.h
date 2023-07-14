@@ -20,8 +20,8 @@ public:
 	bool mStrictTiming;
 
 protected:
-	std::auto_ptr< AnalyzerSettingInterfaceChannel >	mInputChannelInterface;
-	std::auto_ptr< AnalyzerSettingInterfaceBool > mStrictTimingInterface;
+	std::unique_ptr< AnalyzerSettingInterfaceChannel >	mInputChannelInterface;
+	std::unique_ptr< AnalyzerSettingInterfaceBool > mStrictTimingInterface;
 };
 
 #endif //DCC_ANALYZER_SETTINGS

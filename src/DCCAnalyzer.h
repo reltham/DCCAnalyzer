@@ -45,8 +45,8 @@ protected: //vars
 	U64 mPrevEdge;
 	DCCDecoderState mState;
 
-	void DCCAnalyzer::SetupResults();
-	DCCBitState DCCAnalyzer::DetermineHalfBitType(U64 bitlen, BitTimingFilterType* filter);
+	void SetupResults();
+	DCCBitState DetermineHalfBitType(U64 bitlen, BitTimingFilterType* filter);
 };
 
 extern "C" ANALYZER_EXPORT const char* __cdecl GetAnalyzerName();
