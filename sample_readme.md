@@ -1,6 +1,11 @@
-# Cool 3rd Party Analyzer
+# DCC Analyzer for Logic 2.x
+Original author: Mikael Ejberg Pedersen 
 
-Original Readme Content Here
+His website: https://www.ejberg.dk/portfolio/saleae-dcc-decoder/
+
+There's a zip file there with the source code that I copied into this project.
+
+I have only built and tested the Windows x64 version with Visual Studio 2022. I have no idea if any other configs work.
 
 Documentation for the Saleae Logic Analyzer SDK can be found here:
 https://github.com/saleae/SampleAnalyzer
