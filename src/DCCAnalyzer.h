@@ -20,16 +20,16 @@ public:
 	virtual bool NeedsRerun();
 
 protected: //vars
-	std::auto_ptr< DCCAnalyzerSettings > mSettings;
-	std::auto_ptr< DCCAnalyzerResults > mResults;
+	std::unique_ptr< DCCAnalyzerSettings > mSettings;
+	std::unique_ptr< DCCAnalyzerResults > mResults;
 	AnalyzerChannelData* mSerial;
 
 	DCCSimulationDataGenerator mSimulationDataGenerator;
 	bool mSimulationInitialized;
 
-	typedef enum DCCBitState { BS_NONE, BS_0, BS_1 };
+	enum DCCBitState { BS_NONE, BS_0, BS_1 };
 	//typedef enum DCCBitTiming { BT_OUTOFSPEC, BT_RELAXED, BT_STRICT };
-	typedef enum DCCDecoderState { DS_IDLE, DS_PREAMBLE, DS_HALFSTART, DS_DATABYTE, DS_STARTEND };
+	enum DCCDecoderState { DS_IDLE, DS_PREAMBLE, DS_HALFSTART, DS_DATABYTE, DS_STARTEND };
 	typedef struct {
 		U64 bit0min;
 		U64 bit0max;
